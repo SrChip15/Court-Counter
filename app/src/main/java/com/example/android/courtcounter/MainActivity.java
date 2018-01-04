@@ -64,12 +64,12 @@ public class MainActivity extends AppCompatActivity {
     * This method displays the team's score on screen
     */
     public void displayForTeamA() {
-        TextView scoreTextView = (TextView) findViewById(R.id.team_a_score);
+        TextView scoreTextView = findViewById(R.id.team_a_score);
         scoreTextView.setText(String.valueOf(scoreTeamA));
      }
 
      public void displayForTeamB() {
-         TextView scoreTextView = (TextView) findViewById(R.id.team_b_score);
+         TextView scoreTextView = findViewById(R.id.team_b_score);
          scoreTextView.setText(String.valueOf(scoreTeamB));
      }
 }
